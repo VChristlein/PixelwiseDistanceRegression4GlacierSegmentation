@@ -43,12 +43,13 @@ code_zone: former code src directory for the first models (enze zhang).
 This code base is also used for the evaluation for the later comparsion with this study.
 The dataset is split into patches.
 
+
+usage:
 ```
-usage: S0_data_info.py [-h] [--patch_size PATCH_SIZE] [--plot_model] [--load_model LOAD_MODEL] [--chained_training CHAINED_TRAINING]
-```
+S0_data_info.py [-h] [--patch_size PATCH_SIZE] [--plot_model] [--load_model LOAD_MODEL] [--chained_training CHAINED_TRAINING]
 
 Dataset Generator
-```
+
 optional arguments:
   -h, --help            show this help message and exit
   --patch_size PATCH_SIZE
@@ -58,7 +59,7 @@ optional arguments:
                         load model from given path
   --chained_training CHAINED_TRAINING
                         use chained jobs for model training
-``
+```
 
 
 usage: 
@@ -94,7 +95,8 @@ optional arguments:
 
 
 usage: 
-```evaluation.py [-h] [--model_path MODEL_PATH] [--patch_size PATCH_SIZE] [--out_path OUT_PATH] [--zone_model ZONE_MODEL]
+```
+evaluation.py [-h] [--model_path MODEL_PATH] [--patch_size PATCH_SIZE] [--out_path OUT_PATH] [--zone_model ZONE_MODEL]
 ```
 
 Evaluation
