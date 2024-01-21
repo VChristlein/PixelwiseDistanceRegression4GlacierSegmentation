@@ -23,6 +23,8 @@ second U-Net obtains the best performance results, resulting in an average
 improvement of about 21% Dice coefficient enhancement.
 
 ## Cite
+If you find this codebase useful, please cite:
+
 ```
 @ARTICLE{9732953,
   author={Davari, Amirabbas and Baller, Christoph and Seehaus, Thorsten and Braun, Matthias and Maier, Andreas and Christlein, Vincent},
